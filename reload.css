@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+.reload{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+.image{
+    position: fixed;
+    margin-top: -500px;
+}
+.disappear{
+    animation: dis 1s forwards;
+}
+@keyframes dis{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
